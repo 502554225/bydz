@@ -1,0 +1,16 @@
+C:\Users\greed\source\repos\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Service.deps.json
+C:\Users\greed\source\repos\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Service.dll
+C:\Users\greed\source\repos\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Service.pdb
+C:\Users\greed\source\repos\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Service.xml
+C:\Users\greed\source\repos\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Repositroy.dll
+C:\Users\greed\source\repos\bydz\bydz.Service\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\greed\source\repos\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Repositroy.pdb
+C:\Users\greed\source\repos\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Repositroy.xml
+C:\Users\greed\source\repos\bydz\bydz.Service\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\greed\source\repos\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.csprojAssemblyReference.cache
+C:\Users\greed\source\repos\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.csproj.CoreCompileInputs.cache
+C:\Users\greed\source\repos\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.AssemblyInfoInputs.cache
+C:\Users\greed\source\repos\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.AssemblyInfo.cs
+C:\Users\greed\source\repos\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.csproj.CopyComplete
+C:\Users\greed\source\repos\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.dll
+C:\Users\greed\source\repos\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.pdb
