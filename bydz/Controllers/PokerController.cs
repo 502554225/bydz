@@ -8,6 +8,8 @@ using bydz.Service;
 using bydz.Service.impl;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Xml.Serialization;
+using Newtonsoft.Json;
 
 namespace bydz.Controllers
 {
@@ -26,7 +28,13 @@ namespace bydz.Controllers
                 {
                     PokerService.AddMyPoker("3", UserId);
                 }
-                return true;
+                var ss = HttpContext.Session.GetString("UserId");
+                if (ss != null)
+                {
+                    return true;
+                }
+                else return false;
+                
             }
             catch
             {
@@ -43,10 +51,12 @@ namespace bydz.Controllers
         }
 
         [HttpPost("[action]")]
-        public bool AddMyArray([FromServices] IPokerService PokerService, Array pokerIdList)
+        public bool AddMyArray([FromServices] IPokerService PokerService, string pokerList)
         {
+            var pokers = JsonConvert.DeserializeObject<IEnumerable<Poker>>(pokerList);
+
             var userId = HttpContext.Session.GetString("UserId");
-            var result = PokerService.AddMyArray(pokerIdList, userId);
+            var result = PokerService.AddMyArray(pokers, userId);
             return result;
         }
 

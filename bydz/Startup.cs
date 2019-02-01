@@ -37,9 +37,7 @@ namespace bydz
             //    options.CheckConsentNeeded = context => true;
             //    options.MinimumSameSitePolicy = SameSiteMode.None;
             //});
-            //services.AddDbContext<context>(options =>
-            //    options.UseInMemoryDatabase()
-            //   );
+
             services.AddDbContext<context>(o => o.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddDistributedMemoryCache();
             services.AddSession();
@@ -77,8 +75,8 @@ namespace bydz
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
-            app.UseCookiePolicy();
+            //app.UseStaticFiles();
+            //app.UseCookiePolicy();
             app.UseSession();
             app.UseSwagger();
             app.UseSwaggerUI(c =>

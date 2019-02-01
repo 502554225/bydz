@@ -82,7 +82,7 @@ namespace bydz.Service.impl
             }
         }
 
-        public bool AddMyArray(Array pokerIdList, string userId)
+        public bool AddMyArray(IEnumerable<Poker> pokerIdList, string userId)
         {
             try
             {
@@ -93,27 +93,26 @@ namespace bydz.Service.impl
                 }
                 foreach (var item in pokerIdList)
                 {
-                    var poker = _context.myPokers.First(b => b.PokerId == item);
                     _context.array.Add(new array()
                     {
-                        action = poker.action,
-                        Aggressivity = poker.Aggressivity,
-                        ascription = poker.ascription,
-                        crits = poker.crits,
-                        Defenses = poker.Defenses,
-                        evade = poker.evade,
-                        hit = poker.hit,
-                        indomitableness = poker.indomitableness,
-                        level = poker.level,
-                        life = poker.life,
-                        PokerId = poker.PokerId,
-                        PokerName = poker.PokerName,
-                        positionX = poker.positionX,
-                        positionY = poker.positionY,
-                        skill = poker.skill,
-                        survival = poker.survival,
+                        action = item.action,
+                        Aggressivity = item.Aggressivity,
+                        ascription = item.ascription,
+                        crits = item.crits,
+                        Defenses = item.Defenses,
+                        evade = item.evade,
+                        hit = item.hit,
+                        indomitableness = item.indomitableness,
+                        level = item.level,
+                        life = item.life,
+                        PokerId = item.PokerId,
+                        PokerName = item.PokerName,
+                        positionX = item.positionX,
+                        positionY = item.positionY,
+                        skill = item.skill,
+                        survival = item.survival,
                         UserId = userId,
-                        vigour = poker.vigour
+                        vigour = item.vigour
                     });
                 }
                 _context.SaveChanges();
