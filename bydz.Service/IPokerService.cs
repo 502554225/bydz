@@ -12,5 +12,6 @@ namespace bydz.Service
         IEnumerable<myPoker> GetMyAll(string userId);
         bool AddMyPoker(string pokerId, string userId);
         bool AddMyArray(IEnumerable<Poker> pokerIdList, string userId);
+        IEnumerable<array> GetMyArray(string userId);
     }
 }

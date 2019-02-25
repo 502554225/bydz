@@ -123,5 +123,20 @@ namespace bydz.Service.impl
                 return false;
             }
         }
+
+        public IEnumerable<array> GetMyArray(string userId)
+        {
+            try
+            {
+                IEnumerable<array> array = _context.array.Where(b => b.UserId == userId).ToList();
+                return array;
+            }
+            catch
+            {
+                var array = new LinkedList<array>();
+                return array;
+            }
+        }
     }
+
 }

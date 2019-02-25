@@ -43,21 +43,28 @@ namespace bydz.Controllers
         }
 
         [HttpPost("[action]")]
-        public bool AddMyPoker([FromServices] IPokerService PokerService, string pokerId)
+        public bool AddMyPoker([FromServices] IPokerService PokerService,string pokerId)
         {
             var userId = HttpContext.Session.GetString("UserId");
             var result = PokerService.AddMyPoker(pokerId, userId);
             return result;
         }
 
-        [HttpPost("[action]")]
-        public bool AddMyArray([FromServices] IPokerService PokerService, string pokerList)
+        [HttpGet("[action]")]
+        public bool AddMyArray([FromServices] IPokerService PokerService,string pokerList)
         {
             var pokers = JsonConvert.DeserializeObject<IEnumerable<Poker>>(pokerList);
 
             var userId = HttpContext.Session.GetString("UserId");
             var result = PokerService.AddMyArray(pokers, userId);
             return result;
+        }
+
+        [HttpGet("[action]")]
+        public IEnumerable<array> GetMyArray([FromServices] IPokerService PokerService)
+        {
+            var userId = HttpContext.Session.GetString("UserId");
+            return PokerService.GetMyArray(userId);
         }
 
         [HttpGet("[action]")]
