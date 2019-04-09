@@ -17,6 +17,7 @@ namespace bydz.Repositroy
         public DbSet<Poker> Pokers { get; set; }
         public DbSet<myPoker> myPokers { get; set; }
         public DbSet<array> array { get; set; }
+        public DbSet<baseInfor> baseInfors { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<array>()

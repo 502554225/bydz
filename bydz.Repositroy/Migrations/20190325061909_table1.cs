@@ -35,6 +35,22 @@ namespace bydz.Repositroy.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "baseInfor",
+                columns: table => new
+                {
+                    UserId = table.Column<string>(nullable: false),
+                    levelG = table.Column<int>(nullable: false),
+                    drawNum = table.Column<int>(nullable: false),
+                    gold = table.Column<double>(nullable: false),
+                    fatigueNum = table.Column<int>(nullable: false),
+                    date = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_baseInfor", x => x.UserId);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "myPokers",
                 columns: table => new
                 {
@@ -94,6 +110,9 @@ namespace bydz.Repositroy.Migrations
         {
             migrationBuilder.DropTable(
                 name: "array");
+
+            migrationBuilder.DropTable(
+                name: "baseInfor");
 
             migrationBuilder.DropTable(
                 name: "myPokers");

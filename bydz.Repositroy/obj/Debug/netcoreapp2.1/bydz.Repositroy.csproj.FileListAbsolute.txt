@@ -2,9 +2,9 @@ C:\Users\greed\source\repos\bydz\bydz.Repositroy\bin\Debug\netcoreapp2.1\bydz.Re
 C:\Users\greed\source\repos\bydz\bydz.Repositroy\bin\Debug\netcoreapp2.1\bydz.Repositroy.dll
 C:\Users\greed\source\repos\bydz\bydz.Repositroy\bin\Debug\netcoreapp2.1\bydz.Repositroy.pdb
 C:\Users\greed\source\repos\bydz\bydz.Repositroy\bin\Debug\netcoreapp2.1\bydz.Repositroy.xml
-C:\Users\greed\source\repos\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.csprojAssemblyReference.cache
 C:\Users\greed\source\repos\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.csproj.CoreCompileInputs.cache
 C:\Users\greed\source\repos\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.AssemblyInfoInputs.cache
 C:\Users\greed\source\repos\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.AssemblyInfo.cs
 C:\Users\greed\source\repos\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.dll
 C:\Users\greed\source\repos\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.pdb
+C:\Users\greed\source\repos\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.csprojAssemblyReference.cache

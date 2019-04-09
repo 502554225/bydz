@@ -10,8 +10,14 @@ namespace bydz.Service
     {
         IEnumerable<Poker> GetAll();
         IEnumerable<myPoker> GetMyAll(string userId);
-        bool AddMyPoker(string pokerId, string userId);
-        bool AddMyArray(IEnumerable<Poker> pokerIdList, string userId);
+        Poker AddMyPoker(string pokerId, string userId);
+        bool AddMyArray(IEnumerable<myPoker> pokerIdList, string userId);
         IEnumerable<array> GetMyArray(string userId);
+        IEnumerable<Poker> ToArray(IEnumerable<opponent> opList);
+        baseInfor GetMyInfor(string userId);
+        bool SaveMyInfor(string userId, baseInfor infor);
+        bool AddLevel(string userId, int level);
+        int UpMyInfor(string userId,string timeStar,string timeNow);
+
     }
 }

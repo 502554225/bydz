@@ -8,7 +8,7 @@ using bydz.Repositroy;
 namespace bydz.Repositroy.Migrations
 {
     [DbContext(typeof(context))]
-    [Migration("20190129094103_table1")]
+    [Migration("20190325061909_table1")]
     partial class table1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -103,6 +103,26 @@ namespace bydz.Repositroy.Migrations
                     b.HasKey("UserId", "PokerId");
 
                     b.ToTable("array");
+                });
+
+            modelBuilder.Entity("bydz.Repositroy.Models.baseInfor", b =>
+                {
+                    b.Property<string>("UserId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("date");
+
+                    b.Property<int>("drawNum");
+
+                    b.Property<int>("fatigueNum");
+
+                    b.Property<double>("gold");
+
+                    b.Property<int>("levelG");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("baseInfor");
                 });
 
             modelBuilder.Entity("bydz.Repositroy.Models.myPoker", b =>

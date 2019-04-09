@@ -103,6 +103,26 @@ namespace bydz.Repositroy.Migrations
                     b.ToTable("array");
                 });
 
+            modelBuilder.Entity("bydz.Repositroy.Models.baseInfor", b =>
+                {
+                    b.Property<string>("UserId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("date");
+
+                    b.Property<int>("drawNum");
+
+                    b.Property<int>("fatigueNum");
+
+                    b.Property<double>("gold");
+
+                    b.Property<int>("levelG");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("baseInfor");
+                });
+
             modelBuilder.Entity("bydz.Repositroy.Models.myPoker", b =>
                 {
                     b.Property<string>("UserId");
