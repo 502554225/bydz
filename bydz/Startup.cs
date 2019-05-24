@@ -43,22 +43,22 @@ namespace bydz
             services.AddSession();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddScoped<IPokerService, PokerService>();
-            services.AddSwaggerGen(options =>
-            {
-                options.SwaggerDoc("v1", new Info
-                {
-                    Version = "v1",
-                    Title = "bydz.Api"
-                });
+            //services.AddSwaggerGen(options =>
+            //{
+            //    options.SwaggerDoc("v1", new Info
+            //    {
+            //        Version = "v1",
+            //        Title = "bydz.Api"
+            //    });
 
-                //Determine base path for the application.  
-                var basePath = PlatformServices.Default.Application.ApplicationBasePath;
-                //Set the comments path for the swagger json and ui.  
-                var serviceXmlPath = Path.Combine(basePath, "bydz.Service.xml");
-                options.IncludeXmlComments(serviceXmlPath);
-                var webapiXmlPath = Path.Combine(basePath, "bydz.xml");
-                options.IncludeXmlComments(webapiXmlPath);
-            });
+            //    Determine base path for the application.  
+            //    var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+            //    Set the comments path for the swagger json and ui.  
+            //    var serviceXmlPath = Path.Combine(basePath, "bydz.Service.xml");
+            //    options.IncludeXmlComments(serviceXmlPath);
+            //    var webapiXmlPath = Path.Combine(basePath, "bydz.xml");
+            //    options.IncludeXmlComments(webapiXmlPath);
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -78,11 +78,11 @@ namespace bydz
             //app.UseStaticFiles();
             //app.UseCookiePolicy();
             app.UseSession();
-            app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "bydz.xml");
-            });
+            //app.UseSwagger();
+            //app.UseSwaggerUI(c =>
+            //{
+            //    c.SwaggerEndpoint("/swagger/v1/swagger.json", "bydz.xml");
+            //});
 
             app.UseMvc(routes =>
             {

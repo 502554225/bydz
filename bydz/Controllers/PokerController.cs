@@ -26,7 +26,7 @@ namespace bydz.Controllers
                 var poker = PokerService.GetMyAll(UserId);
                 if (poker.Count() == 0)
                 {
-                    PokerService.AddMyPoker("3", UserId);
+                    PokerService.AddMyPoker("2", UserId);
                     List<myPoker> pokers = new List<myPoker>();
                     var mypoker = PokerService.GetMyAll(UserId).ToList()[0];
                     mypoker.positionX = 1;

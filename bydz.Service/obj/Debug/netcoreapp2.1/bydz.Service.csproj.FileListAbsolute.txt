@@ -14,3 +14,17 @@ C:\Users\greed\source\repos\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Servi
 C:\Users\greed\source\repos\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.csproj.CopyComplete
 C:\Users\greed\source\repos\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.dll
 C:\Users\greed\source\repos\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.pdb
+D:\文件\git repository\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.csprojAssemblyReference.cache
+D:\文件\git repository\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.csproj.CoreCompileInputs.cache
+D:\文件\git repository\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.AssemblyInfoInputs.cache
+D:\文件\git repository\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.AssemblyInfo.cs
+D:\文件\git repository\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.dll
+D:\文件\git repository\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.pdb
+D:\文件\git repository\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Service.deps.json
+D:\文件\git repository\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Service.dll
+D:\文件\git repository\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Service.pdb
+D:\文件\git repository\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Service.xml
+D:\文件\git repository\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Repositroy.dll
+D:\文件\git repository\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Repositroy.pdb
+D:\文件\git repository\bydz\bydz.Service\bin\Debug\netcoreapp2.1\bydz.Repositroy.xml
+D:\文件\git repository\bydz\bydz.Service\obj\Debug\netcoreapp2.1\bydz.Service.csproj.CopyComplete

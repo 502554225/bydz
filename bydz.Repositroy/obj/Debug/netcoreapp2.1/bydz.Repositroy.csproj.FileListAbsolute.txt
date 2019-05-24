@@ -8,3 +8,13 @@ C:\Users\greed\source\repos\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Re
 C:\Users\greed\source\repos\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.dll
 C:\Users\greed\source\repos\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.pdb
 C:\Users\greed\source\repos\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.csprojAssemblyReference.cache
+D:\文件\git repository\bydz\bydz.Repositroy\bin\Debug\netcoreapp2.1\bydz.Repositroy.deps.json
+D:\文件\git repository\bydz\bydz.Repositroy\bin\Debug\netcoreapp2.1\bydz.Repositroy.dll
+D:\文件\git repository\bydz\bydz.Repositroy\bin\Debug\netcoreapp2.1\bydz.Repositroy.pdb
+D:\文件\git repository\bydz\bydz.Repositroy\bin\Debug\netcoreapp2.1\bydz.Repositroy.xml
+D:\文件\git repository\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.csproj.CoreCompileInputs.cache
+D:\文件\git repository\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.AssemblyInfoInputs.cache
+D:\文件\git repository\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.AssemblyInfo.cs
+D:\文件\git repository\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.dll
+D:\文件\git repository\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.pdb
+D:\文件\git repository\bydz\bydz.Repositroy\obj\Debug\netcoreapp2.1\bydz.Repositroy.csprojAssemblyReference.cache
